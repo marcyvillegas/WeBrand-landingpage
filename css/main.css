@@ -297,16 +297,55 @@ html, body
     width: 100%;
     display: flex;
     align-items: center;
-    position: sticky;
-    top: 0;
 }
 
 .about-img img
 {
     width: 700px;
+    margin-left: 45px;
+    margin-top: -170px;
 }
 
 .about-text
 {
     padding: 0 20px 0 20px;
+    margin-top: -230px;
+    margin-right: 93px;
+    margin-left: -50px;
+}
+
+#about-title
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: #1B4F72;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about-content
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #103045;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+#about-secondContent
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #596166;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.about-numbers
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #28506b;
 }
