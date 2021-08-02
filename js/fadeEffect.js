@@ -26,8 +26,6 @@ window.addEventListener("scroll", function() {
 
      if (window.pageYOffset > 200) {
           satisfiedText.style.display = "flex";
-     }  else if (window.pageYOffset < 10){
-          satisfiedText.style.display = "none";
      }
 });
 

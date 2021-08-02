@@ -90,7 +90,7 @@ html, body
 {
     display: flex;
     align-items: center;
-    animation: fade-up 2s ease;
+    animation: fade-up 1s ease;
     padding-top: 80px;
 }
 
