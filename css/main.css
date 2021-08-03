@@ -301,8 +301,8 @@ html, body
 
 .about-img img
 {
-    width: 700px;
-    margin-left: 45px;
+    width: 720px;
+    margin-left: 65px;
     margin-top: -170px;
 }
 
@@ -319,16 +319,16 @@ html, body
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
     color: #1B4F72;
-    text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 }
 
 #about-content
 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    color: #103045;
-    line-height: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #404549;
+    line-height: 45px;
     margin-bottom: 20px;
 }
 
@@ -349,3 +349,4 @@ html, body
     font-family: 'Roboto Condensed', sans-serif;
     color: #28506b;
 }
+
