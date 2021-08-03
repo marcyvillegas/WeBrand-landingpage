@@ -173,7 +173,6 @@ html, body
     transition: color 0.5s ease 0s, background ease 1s;
 }
 
-
 /* Animations */
 @keyframes fade-down
 {
@@ -260,15 +259,14 @@ html, body
 }
 
 /* Satisfied Clients */
-#satisfied-text
+.satisfied-text
 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
     color: #1B4F72;
     margin-left: 100px;
     margin-top: -30px;
-    display: none;
-    animation: fade-up 0.5s ease;
+    display: flex;
 }
 
 /* Autoplay Logo Carousel */
@@ -288,6 +286,19 @@ html, body
 .item img
 {
     width: 300px;
+}
+
+/* AOS Library  */
+[data-aos="fadeP"]
+{
+    opacity: 0;
+    transform: translateY(20px);
+    transition-property: opacity, transform;
+    
+    &.satisfied-text{
+    opacity: 1;
+    transform: translateY(0);
+    }
 }
 
 /* About Us Page */

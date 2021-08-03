@@ -20,12 +20,3 @@ document.getElementById("btn-text").addEventListener("click",function(){
      buttonText.style.padding = "15px 84.8px";
 });
 
-// Satisfied Clients text fade effect
-window.addEventListener("scroll", function() {
-    let satisfiedText = document.getElementById("satisfied-text");
-
-     if (window.pageYOffset > 170){
-          satisfiedText.style.display = "flex";
-     }
-});
-

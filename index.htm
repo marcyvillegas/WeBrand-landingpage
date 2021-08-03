@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 
@@ -40,7 +41,7 @@
             </div>
         </div>
 
-        <div id="satisfied-text">
+        <div class="satisfied-text" data-aos="fadeP" data-aos-delay="30" data-aos-duration="650" data-aos-easing="ease">
             <h1>Satisfied Clients</h1>
         </div>
     </div>
@@ -75,7 +76,9 @@
             </div>
 
             <div id="about-secondContent">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit expedita vel eveniet non, voluptatum perferendis sequi distinctio rem quas quidem earum saepe numquam ipsa doloribus nesciunt, natus delectus quae cumque.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit expedita vel eveniet non,
+                    voluptatum perferendis sequi distinctio rem quas quidem earum saepe numquam ipsa doloribus nesciunt,
+                    natus delectus quae cumque.</p>
             </div>
 
             <div class="about-numbers">
@@ -107,8 +110,16 @@
             pauseOnHover: false
         });
     </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            mirror: true,
+            offset: 200,
+        });
+    </script>
     <script src="/js/navBar.js"></script>
-    <script src="/js/fadeEffect.js"></script>
+    <script src="/js/buttonEffect.js"></script>
     <script src="/js/incrementNum.js"></script>
 </body>
 
