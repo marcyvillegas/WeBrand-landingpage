@@ -138,6 +138,7 @@ html, body
     font-weight: bold;
     text-align: center;
     border: 2px solid #1B4F72;
+    border-radius: 5px;
     text-decoration: none;
     color: #1B4F72;
     white-space: nowrap;
@@ -173,7 +174,7 @@ html, body
     transition: color 0.5s ease 0s, background ease 1s;
 }
 
-/* Animations */
+/* Keyframes Animations */
 @keyframes fade-down
 {
     0% {
@@ -272,7 +273,7 @@ html, body
 /* Autoplay Logo Carousel */
 .logo-container
 {
-    max-width: 1400px;
+    max-width: 90%;
     margin: 0 auto;
     width: 100%;
 }
@@ -288,39 +289,65 @@ html, body
     width: 300px;
 }
 
-/* AOS Library  */
-[data-aos="fadeP"]
+/* AOS Library Animations */
+[data-aos="fadeUp"]
 {
     opacity: 0;
     transform: translateY(20px);
     transition-property: opacity, transform;
     
-    &.satisfied-text{
+    &.satisfied-text, {
     opacity: 1;
     transform: translateY(0);
     }
 }
 
-/* About Us Page */
+[data-aos="fadeRight"]
+{
+    opacity: 0;
+    transform: translateX(20px);
+    transition-property: opacity, transform;
+    
+    &.satisfied-text{
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+[data-aos="fadeLeft"]
+{
+    opacity: 0;
+    transform: translateX(-20px);
+    transition-property: opacity, transform;
+    
+    &.satisfied-text{
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+/* About Us Section */
 .about-container
 {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .about-img img
 {
     width: 720px;
-    margin-left: 65px;
-    margin-top: -170px;
+    margin-left: 45px;
+    margin-top: -150px;
 }
 
 .about-text
 {
     padding: 0 20px 0 20px;
-    margin-top: -230px;
+    margin-top: -200px;
     margin-right: 93px;
     margin-left: -50px;
 }
@@ -349,7 +376,7 @@ html, body
     font-size: 17px;
     color: #596166;
     line-height: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .about-numbers
@@ -357,7 +384,26 @@ html, body
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #28506b;
 }
 
+.counter-value
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    color: #1B4F72;
+    margin-bottom: 2px;
+}
+
+#num-title
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #404549;
+    margin-bottom: 5px;
+}
+
+#num-content
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #404549;
+}
