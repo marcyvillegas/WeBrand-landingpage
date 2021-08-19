@@ -1,6 +1,6 @@
 # WeBrand-landingpage
 
-This is my first web development solo project. It is a landing page for a branding agency.
+It is a landing page for a branding agency named WeBrand. This is a personal project to pracetice my web development skills
 
 This website is made using HTML, CSS, Javascript, which include some libraries.
 
