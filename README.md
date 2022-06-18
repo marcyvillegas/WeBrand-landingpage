@@ -4,4 +4,4 @@ It is a landing page for a branding agency named WeBrand. This is a personal pro
 
 This website is made using HTML, CSS, Javascript, which include some libraries.
 
-## 🚧 I am still working on the project 🚧
+## 🚧 Not finshed 🚧
